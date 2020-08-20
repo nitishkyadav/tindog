@@ -1,0 +1,181 @@
+#title{
+  background-color: #ff4c68;
+  font-family: 'Montserrat-Black', sans-serif;
+  /* font-size: 3rem; */
+  color:#fff;
+}
+.container-fluid{
+  padding:3% 15% 6%;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation-bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left:0;
+}
+.navbar-brand{
+  font-size: 3rem;
+font-family: Ubuntu;
+}
+.nav-item{
+  margin-left:45px;
+  font-size: 1.3rem;
+}
+.nav-link{
+  font-family:Ubuntu-light;
+}
+.title-row{
+  padding-top: 0;
+}
+
+/* download-button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* Title-img */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  /* background-color:  */
+  position: absolute;
+  right:30%;
+  /* margin-left:1rem; */
+
+  /* margin-top: 10rem; */
+
+}
+@media(max-width:991px){
+#title{
+  text-align: center;
+}
+  .title-img{
+    position:static;
+    transform: rotate(0deg);
+  }
+}
+/* Features */
+#features{
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.features{
+  padding: 5%;
+  text-align: center;
+
+}
+.container-float{
+  padding: 7% 15%;
+
+}
+.features-row{
+  padding-top: 5%;
+}
+/* .column{
+  text-align: center;
+} */
+.icon{
+  color:#ef8172;
+}
+icon:hover{
+  color: #ff4c68;
+  /* background-color: #fff; */
+}
+
+h3{
+  line-height:2;
+  font-family: montserrat-bold;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+
+}
+p{
+  line-height: 1.5;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+h2{
+  font-family:Montserrat-bold;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  margin:3%;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* Press */
+#press{
+  text-align: center;
+  padding-bottom: 2%;
+  background-color: #ef8172;
+}
+.press-img{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* card */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+}
+
+/* cta */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  margin-top: 0;
+  padding: 7% 17%;
+
+}
+.download-h1{
+  line-height:1.5;
+  font-family: montserrat-black;
+  font-size: 3.5rem;
+  color:white;
+
+}
+.download-buttons{
+  margin-top: 7%;
+  margin-right: 3%;
+}
+
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.social{
+  padding:2% 1%;
+  text-align: center;
+  color: black;
+}
+.copyright{
+  color: grey;
+}
